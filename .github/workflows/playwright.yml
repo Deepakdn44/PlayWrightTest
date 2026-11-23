@@ -5,20 +5,20 @@ on:
   pull_request:
     branches: [ main, master ]
 
-workflow_dispatch:
-  inputs:
-    env:
-      description: 'Environment to run tests against'
-      required: true
-      default: 'qa'
-      type: choice
-      options:
-        - qa
-        - dev
-      browser:
-        description: 'Browser to run tests on'
+  workflow_dispatch:
+    inputs:
+      env:
+        description: "Environment to run tests against"
         required: true
-        default: 'chromium'
+        default: qa
+        type: choice
+        options:
+          - qa
+          - dev
+      browser:
+        description: "Browser to run tests on"
+        required: true
+        default: chromium
         type: choice
         options:
           - chromium
