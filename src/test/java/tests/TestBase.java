@@ -29,13 +29,13 @@ public class TestBase {
         String envName = System.getProperty("env")!=null ? System.getProperty("env") : prop.getProperty("env");
         //String Browser = prop.getProperty("browser");
         if("safari".equals(Browser)){
-            browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.webkit().launch();
         }
         else if("firefox".equals(Browser)){
-            browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.firefox().launch();
         }
         else{
-            browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.chromium().launch();
         }
         context = browser.newContext();
         context.tracing().start(new Tracing.StartOptions()
