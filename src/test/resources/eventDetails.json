@@ -1,0 +1,29 @@
+[
+  {
+    "description": "Conference held to discuss about usage of Playwright",
+    "eventTitle": "Conference for Playwright",
+    "category": "Concert",
+    "city": "Banglore",
+    "venue": "Google office, Banglore",
+    "eventDate": "2027-10-25T10:30",
+    "price": "500",
+    "seats": "450",
+    "fullName": "Deepak Test",
+    "email": "DeepakTest2@gmail.com",
+    "phone": "9876543210"
+  },
+  {
+    "description": "Data driven testing for 2 sets of data",
+    "eventTitle": "DataDriven testing",
+    "category": "Concert",
+    "city": "Banglore",
+    "venue": "Google office, Manglore",
+    "eventDate": "2027-12-27T10:30",
+    "price": "890",
+    "seats": "987",
+    "fullName": "DeepaK Nataraja",
+    "email": "DeepakTest3@gmail.com",
+    "phone": "9876543210"
+  }
+
+]
